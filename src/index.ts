@@ -11,7 +11,7 @@ import cors from "cors"; //pakai npm i -D @types/cors
 const PORT: string = process.env.PORT || "5000";
 // API Config
 const app: Application = express();
-// CORS Middleware 
+// CORS Middleware (firewall hubungkan ke seluruh aplikasi)
 app.use(cors());
 
 // Middleware Config

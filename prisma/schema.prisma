@@ -17,12 +17,14 @@ model Accounts {
   id Int @id @default(autoincrement())
   username String @unique
   email String @unique
-  password String
-  img String? //kalau ada ? maka boleh null
-  role ROLE
+  password String 
+  img String?  //kalau ada ? maka boleh null
+  // img String @default("img1")
+  role ROLE @default(USER)
   createdAt DateTime @default(now())
   
 }
+
 
 enum ROLE {
   USER

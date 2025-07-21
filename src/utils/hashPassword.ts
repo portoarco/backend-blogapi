@@ -6,3 +6,4 @@ export const hashPassword = async (password: string) => {
 };
 
 
+//kenapa dipisah? supaya bagian genSaltnya konsisten saat dibutuhkan di controller lain, sehingga tdk perlu satu2 definenya, konsistensi metode

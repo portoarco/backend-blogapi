@@ -2139,7 +2139,7 @@ export namespace Prisma {
     email: string
     password: string
     img?: string | null
-    role: $Enums.ROLE
+    role?: $Enums.ROLE
     createdAt?: Date | string
   }
 
@@ -2149,7 +2149,7 @@ export namespace Prisma {
     email: string
     password: string
     img?: string | null
-    role: $Enums.ROLE
+    role?: $Enums.ROLE
     createdAt?: Date | string
   }
 
@@ -2178,7 +2178,7 @@ export namespace Prisma {
     email: string
     password: string
     img?: string | null
-    role: $Enums.ROLE
+    role?: $Enums.ROLE
     createdAt?: Date | string
   }
 
